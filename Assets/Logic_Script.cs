@@ -4,15 +4,12 @@ using UnityEngine;
 
 public class Logic_Script : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
+    public int play_score;
+    public string score_text;
+    [ContextMenu("Increase Score")]
+    void add_score()
     {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
+        play_score = play_score + 1;
+        score_text = play_score.ToString();
     }
 }

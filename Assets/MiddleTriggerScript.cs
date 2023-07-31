@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class middlePipeScript : MonoBehaviour
+public class MiddleTriggerScript : MonoBehaviour
 {
 
     public Logic_Script logic;

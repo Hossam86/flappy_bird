@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8994532369934841698}
   - component: {fileID: 6498482953519629551}
-  - component: {fileID: 445940512547082813}
+  - component: {fileID: 9141787101504449497}
   m_Layer: 0
   m_Name: MiddlePipe
   m_TagString: Untagged
@@ -43,7 +43,7 @@ BoxCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -57,9 +57,9 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 2.26, y: 17.78}
+  m_Size: {x: 4.71, y: 17.78}
   m_EdgeRadius: 0
---- !u!114 &445940512547082813
+--- !u!114 &9141787101504449497
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -68,7 +68,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 2142375509885844302}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 15912e9fd9e95814a994cfc01f196d91, type: 3}
+  m_Script: {fileID: 11500000, guid: 9d8c7bcfc57c58e4c86e6df62372da1c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &5231698439666801290

@@ -685,5 +685,5 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pipe: {fileID: 5231698439920240333, guid: 01556416f9c7aaa46ab0702db4ef99d2, type: 3}
-  spawn_rate: 2
-  pipe_offest: 10
+  spawn_rate: 4
+  pipe_offest: 5

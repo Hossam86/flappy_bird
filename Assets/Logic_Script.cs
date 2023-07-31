@@ -1,15 +1,17 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class Logic_Script : MonoBehaviour
 {
-    public int play_score;
-    public string score_text;
-    [ContextMenu("Increase Score")]
+    public int playScore;
+    public Text scoreText;
+
+    [ContextMenu("increase Score")]
     void add_score()
     {
-        play_score = play_score + 1;
-        score_text = play_score.ToString();
+        playScore = playScore + 1;
+        scoreText.text = playScore.ToString();
     }
 }

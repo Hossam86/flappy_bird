@@ -9,9 +9,9 @@ public class Logic_Script : MonoBehaviour
 	public Text scoreText;
 
 	[ContextMenu("Increase Score")]
-	public void add_score()
+	public void AddScore()
 	{
-		playScore = playScore + 1;
+		playScore++;
 		scoreText.text = playScore.ToString();
 	}
 }

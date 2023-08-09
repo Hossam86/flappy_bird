@@ -25,7 +25,7 @@ public class MiddleTriggerScript : MonoBehaviour
 		Debug.Log("pass");
 		if (collision.gameObject.layer == 3)
 		{
-			logic.add_score();
+			logic.AddScore();
 		};
 	}
 }

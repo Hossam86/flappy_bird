@@ -8,7 +8,7 @@ public class Logic_Script : MonoBehaviour
 	public int playScore;
 	public Text scoreText;
 
-	[ContextMenu("increase Score")]
+	[ContextMenu("Increase Score")]
 	public void add_score()
 	{
 		playScore = playScore + 1;

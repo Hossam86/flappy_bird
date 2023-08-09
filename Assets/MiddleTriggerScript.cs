@@ -5,27 +5,27 @@ using UnityEngine;
 public class MiddleTriggerScript : MonoBehaviour
 {
 
-    public Logic_Script logic;
+	public Logic_Script logic;
 
-    // Start is called before the first frame update
-    void Start()
-    {
-        logic = GameObject.FindGameObjectWithTag("Logic").GetComponent<Logic_Script>();
+	// Start is called before the first frame update
+	void Start()
+	{
+		logic = GameObject.FindGameObjectWithTag("Logic").GetComponent<Logic_Script>();
 
-    }
+	}
 
-    // Update is called once per frame
-    void Update()
-    {
+	// Update is called once per frame
+	void Update()
+	{
 
-    }
+	}
 
-    private void OnTriggerEnter2D(Collider2D collision)
-    {
-        Debug.Log("pass");
-        if (collision.gameObject.layer == 3)
-        {
-            logic.add_score();
-        };
-    }
+	private void OnTriggerEnter2D(Collider2D collision)
+	{
+		Debug.Log("pass");
+		if (collision.gameObject.layer == 3)
+		{
+			logic.add_score();
+		};
+	}
 }
